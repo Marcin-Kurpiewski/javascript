@@ -1,0 +1,17 @@
+.main-game-cont{
+    background-color: aquamarine;
+    display: flex;
+
+}
+.all-cont{
+    display: inline-block;
+    }
+.cont-1{
+    background-color: mediumvioletred;
+}
+.cont-2{
+    background-color: aqua;
+}
+.cont-3{
+    background-color: darkgreen;
+}

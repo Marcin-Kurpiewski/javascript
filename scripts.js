@@ -47,7 +47,7 @@
 //
 //
 
-//operatory logiczne
+//OPERATORY LOGICZNE
 
 // var number = 10;
 // console.log(number<20 && number >15 );
