@@ -147,7 +147,7 @@
 //     if((i%2)===0){
 //         console.log(i);
 //     }
-}
+
 // // var nick="";
 // nick="komp";
 // if(!nick){
@@ -251,3 +251,111 @@
 // if (number =20){
 //     console.log('liczba jest rowna 20')
 // }
+
+
+//Obiekty
+//
+// var person={
+//     firstName:"Tomasz",
+//     lastName:"Kowalski",
+//     age:32
+// };
+// person.job="programista";
+//
+// person["job"]="informatyk";
+//
+// delete person.age;
+// console.log(person);
+
+// TABLICE
+
+
+// var tablica= [2, '2', 'tomasz', {}, 11, 29];
+// console.log(tablica[2]);
+
+// var tablica2=[]; //pusta tablica
+//
+// var tablica1=[1,3,4,5];
+//
+// console.log(tablica1[2]);
+//
+// console.log(tablica1.length);
+//
+// var things= [{firstName:"Anna"}, 2, 2+8];
+//
+// var arrays=[[2,3,"adam"], [4,5,6, ["jan"]]];
+//
+//
+//
+
+//     // dodawanie lementow do tablicy
+// var nowArray=[];
+//
+// nowArray[0]='kasia';
+// nowArray[1]="damian";
+// nowArray[2]='ela';
+// nowArray[10]='ktos';
+//  nowArray[nowArray.length]="Marcin";
+// nowArray.push('monika');
+// nowArray.unshift('Kalinka');
+// console.log(nowArray);
+//
+//
+//usowanie elementow z tablicy
+
+// var arrt=['tomke', 'damian', 'darek', 'kalinka', 'kkklok', 'lkfhgf'];
+// console.log(arrt.length);
+//
+// //arrt.splice(2,1);
+// console.log(arrt);
+
+//sortowanie elementow tablic
+
+// var arr=[5,8,1,2,1,33,23,18,4],
+//     arr2= ['anita', 'tomek', 'ania', 'adrzej', 'mateusz', 'kasia'];
+// arr.sort(function(a,b){
+//     return a-b;
+// })
+// console.log(arr);
+//
+// arr2.sort(function (a,b){
+//
+//     if(a<b) {
+//         return -1;
+//     } else if(a>b) {
+//         return 1;
+//     }else {
+//         return 0;
+//     }
+// });
+// console.log(arr2);
+//
+
+
+//Iterowanie po tblicy
+
+//  var numbers=[2,3,17,32,28,9],
+//     text= 'wylosowane liczby to';
+//
+// for( var i=0; i< numbers.length; i++){
+//     text+= numbers[i] + ', ';
+// }
+// console.log(text);
+
+// metody tablic
+
+// var tablica=[32,11,2,0,45,99,3,5];
+//     var half = tablica.slice(-2,3);
+// console.log(tablica);
+//
+// console.log(half);
+//
+
+
+function kwadrat(number) {
+    return number * number;
+}
+
+function suma(a,b){
+    return a+b;}
+console.log(suma(10,20))
