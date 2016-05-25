@@ -24,3 +24,4 @@ function rotate() {
 
     setTimeout(rotate, 3 * 50);
 }
+

@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="game-style.css">
+    <link rel="stylesheet" href="roll-game-style.css">
+    <link rel="stylesheet" href="game-two.css">
 </head>
 <body>
 
-<section class="slideContainer">
+<h1>Game one</h1>
+<div class="main-game-box">
+    <div class="item-game-1 game-box-style"></div>
+    <div class="item-game-2 game-box-style"></div>
+    <div class="item-game-3 game-box-style"></div>
+</div>
+<form>
+    <input type="button" value="start">
+</form>
 
-    <h1>SliderShow</h1>
-    <img src="SlideShow/photo1.jpg" id="myPicture" alt="SlideShow" class="SlideShow" >
+<h1>Game two</h1>
+<section class="main-game-cont">
+    <div class="cont-1 all-cont"><img src="" id="first" alt="Reklama"></div>
+    <div class="cont-2 all-cont"><img src="" id="second" alt="Reklama"></div>
+    <div class="cont-3 all-cont"><img src="" id="third" alt="Reklama"></div>
+</section>
+
+<h1>Slider Show</h1>
+<section class="slideContainer">
+    <img src="SlideShow/photo1.jpg" id="myPicture" alt="SlideShow" class="SlideShow">
     <a href="previous.html" id="prevLink"> Pre</a>
     <a href="next.html" id="nextLink"> Next</a>
-
 </section>
 
-<section class="main-game-cont">
-    <div class="cont-1 all-cont"><img src="images/spacer.gif" id="first" alt="Reklama"></div>
-    <div class="cont-2 all-cont"><img src="images/spacer.gif" id="second" alt="Reklama"></div>
-    <div class="cont-3 all-cont"><img src="images/spacer.gif" id="third" alt="Reklama"></div>
-</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="game.js"></script>
+<script src="roll-game.js"></script>
+<script src="game-two.js"></script>
 <script src="scripts.js"></script>
 <script src="SlideShow.js"></script>
 </body>
