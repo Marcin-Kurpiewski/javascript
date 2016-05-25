@@ -3,7 +3,7 @@
  */
 window.onload = choosePic;
 
-var adImages = new Array("images/star.png","images/cherries.png","images/7.png");
+var adImages = new Array("images/star.png", "images/cherries.png", "images/7.png");
 var thisAd = 0;
 
 function choosePic() {
