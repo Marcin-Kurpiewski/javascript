@@ -1,13 +1,14 @@
 .main-game-cont{
     background-color: black;
-    display: flex;
-    padding:50px;
-    width: 300px;
+    display: inline-block;
+    margin:auto;
+    padding: auto;
+    width: 100%;
+    text-align: center;
 
 }
 .all-cont{
     display: inline-block;
-
     }
 .cont-1{
     background-color: mediumvioletred;

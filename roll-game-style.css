@@ -1,4 +1,92 @@
-/*--------------game--------------*/
+/*!*--------------game--------------*!*/
+/*.main-game-box {*/
+    /*display: flex;*/
+    /*padding:50px;*/
+    /*width:300px;*/
+    /*height: 100px;*/
+    /*border:2px solid black;*/
+/*}*/
+/*.item-game-1{*/
+    /*background-image: url(images/roll-game/background-game.jpg);*/
+    /*background-repeat:repeat;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*border: 2px solid black;*/
+    /*margin-right: 1px;*/
+    /*animation-name: game-animation-1;*/
+    /*animation-duration:5s;*/
+    /*animation-iteration-count:5;*/
+
+
+/*}*/
+
+/*.item-game-2{*/
+    /*background-image: url(images/roll-game/background-game.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*border: 2px solid black;*/
+    /*margin-right: 1px;*/
+    /*animation-name: game-animation-2;*/
+    /*animation-duration:5s;*/
+    /*animation-iteration-count:5;*/
+    /*animation-timing-function:ease;*/
+    /*}*/
+
+/*.item-game-3{*/
+    /*background-image: url(images/roll-game/background-game.jpg);*/
+    /*background-repeat: repeat;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*border: 2px solid black;*/
+    /*animation-name: game-animation-3;*/
+    /*animation-duration:5s;*/
+    /*animation-iteration-count:5;*/
+
+/*}*/
+
+/*@keyframes game-animation-1 {*/
+/*0%{background-position-y: -200px;}*/
+/*10%{background-position-y: -700px;}*/
+/*20%{background-position-y: -400px;}*/
+/*30%{background-position-y: 0px;}*/
+/*40%{background-position-y: -600px;}*/
+/*50%{background-position-y: -500px;}*/
+/*60%{background-position-y: -800px;}*/
+/*70%{background-position-y: -300px;}*/
+/*80%{background-position-y: -1000px;}*/
+/*90%{background-position-y: -100px;}*/
+/*100%{background-position-y: -900px;}*/
+/*}*/
+/*@keyframes game-animation-2 {*/
+/*0%{background-position-y: -500px;}*/
+/*10%{background-position-y: -100px;}*/
+/*20%{background-position-y: -900px;}*/
+/*30%{background-position-y: -300px;}*/
+/*40%{background-position-y: -600px;}*/
+/*50%{background-position-y: -800px;}*/
+/*60%{background-position-y: -400px;}*/
+/*70%{background-position-y: -700px;}*/
+/*80%{background-position-y: -200px;}*/
+/*90%{background-position-y: -800px;}*/
+/*100%{background-position-y: 0px;}*/
+/*}*/
+/*@keyframes game-animation-3 {*/
+/*0%{background-position-y: -100px;}*/
+/*10%{background-position-y: -900px;}*/
+/*20%{background-position-y: -300px;}*/
+/*30%{background-position-y: -700px;}*/
+/*40%{background-position-y: 0px;}*/
+/*50%{background-position-y: -500px;}*/
+/*60%{background-position-y: -600px;}*/
+/*70%{background-position-y: -400px;}*/
+/*80%{background-position-y: -800px;}*/
+/*90%{background-position-y: -200px;}*/
+/*100%{background-position-y: -1000px;}*/
+/*}*/
+
+
+
 .main-game-box {
     display: flex;
     padding:50px;
@@ -8,82 +96,82 @@
 }
 .item-game-1{
     background-image: url(images/roll-game/background-game.jpg);
-    background-repeat:repeat;
+    background-repeat:repeat-y;
     width: 100px;
     height: 100px;
     border: 2px solid black;
     margin-right: 1px;
     animation-name: game-animation-1;
     animation-duration:5s;
-    animation-iteration-count:5;
+    animation-iteration-count:1;
 
 
 }
 
 .item-game-2{
     background-image: url(images/roll-game/background-game.jpg);
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     width: 100px;
     height: 100px;
     border: 2px solid black;
     margin-right: 1px;
     animation-name: game-animation-2;
     animation-duration:5s;
-    animation-iteration-count:5;
-    animation-timing-function:ease;
+    animation-iteration-count:1;
+
     }
 
 .item-game-3{
     background-image: url(images/roll-game/background-game.jpg);
-    background-repeat: repeat;
+    background-repeat:repeat-y;
     width: 100px;
     height: 100px;
     border: 2px solid black;
     animation-name: game-animation-3;
     animation-duration:5s;
-    animation-iteration-count:5;
+    animation-iteration-count:1;
 
 }
 
-@keyframes game-animation-1 {
-0%{background-position-y: -200px;}
-10%{background-position-y: -700px;}
-20%{background-position-y: -400px;}
-30%{background-position-y: 0px;}
-40%{background-position-y: -600px;}
-50%{background-position-y: -500px;}
-60%{background-position-y: -800px;}
-70%{background-position-y: -300px;}
-80%{background-position-y: -1000px;}
-90%{background-position-y: -100px;}
-100%{background-position-y: -900px;}
-}
-@keyframes game-animation-2 {
-0%{background-position-y: -500px;}
-10%{background-position-y: -100px;}
-20%{background-position-y: -900px;}
-30%{background-position-y: -300px;}
-40%{background-position-y: -600px;}
-50%{background-position-y: -800px;}
-60%{background-position-y: -400px;}
-70%{background-position-y: -700px;}
-80%{background-position-y: -200px;}
-90%{background-position-y: -800px;}
-100%{background-position-y: 0px;}
-}
-@keyframes game-animation-3 {
-0%{background-position-y: -100px;}
-10%{background-position-y: -900px;}
-20%{background-position-y: -300px;}
-30%{background-position-y: -700px;}
-40%{background-position-y: 0px;}
-50%{background-position-y: -500px;}
-60%{background-position-y: -600px;}
-70%{background-position-y: -400px;}
-80%{background-position-y: -800px;}
-90%{background-position-y: -200px;}
-100%{background-position-y: -1000px;}
-}
+/*@keyframes game-animation-1 {*/
+/*0%{background-position-y: -200px;}*/
+/*10%{background-position-y: -700px;}*/
+/*20%{background-position-y: -400px;}*/
+/*30%{background-position-y: 0px;}*/
+/*40%{background-position-y: -600px;}*/
+/*50%{background-position-y: -500px;}*/
+/*60%{background-position-y: -800px;}*/
+/*70%{background-position-y: -300px;}*/
+/*80%{background-position-y: -1000px;}*/
+/*90%{background-position-y: -100px;}*/
+/*100%{background-position-y: -900px;}*/
+/*}*/
+/*@keyframes game-animation-2 {*/
+/*0%{background-position-y: -500px;}*/
+/*10%{background-position-y: -100px;}*/
+/*20%{background-position-y: -900px;}*/
+/*30%{background-position-y: -300px;}*/
+/*40%{background-position-y: -600px;}*/
+/*50%{background-position-y: -800px;}*/
+/*60%{background-position-y: -400px;}*/
+/*70%{background-position-y: -700px;}*/
+/*80%{background-position-y: -200px;}*/
+/*90%{background-position-y: -800px;}*/
+/*100%{background-position-y: 0px;}*/
+/*}*/
+/*@keyframes game-animation-3 {*/
+/*0%{background-position-y: -100px;}*/
+/*10%{background-position-y: -900px;}*/
+/*20%{background-position-y: -300px;}*/
+/*30%{background-position-y: -700px;}*/
+/*40%{background-position-y: 0px;}*/
+/*50%{background-position-y: -500px;}*/
+/*60%{background-position-y: -600px;}*/
+/*70%{background-position-y: -400px;}*/
+/*80%{background-position-y: -800px;}*/
+/*90%{background-position-y: -200px;}*/
+/*100%{background-position-y: -1000px;}*/
+/*}*/
 
 
 
