@@ -1,0 +1,43 @@
+.slideContainer {
+    position: relative;
+    text-align: center;
+}
+
+.prevBtn {
+    transform: rotate(90deg);
+    width: 5%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+.nextBtn {
+    transform: rotate(-90deg);
+    width: 5%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+
+}
+
+.SlideShow > img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-mini-photo{
+    position: absolute;
+    bottom: 2%;
+}
+.mini-photo {
+    width: 10%;
+    height: 10%;
+    opacity: 0.8;
+
+}
+.mini-photo:hover{
+    opacity: 1;
+    width: 12%;
+    height: 12%;
+    transition: width 0.5s;
+}
