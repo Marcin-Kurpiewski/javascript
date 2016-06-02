@@ -95,7 +95,7 @@
     border:2px solid black;
 }
 .item-game-1{
-    background-image: url(images/roll-game/background-game.jpg);
+    background-image: url(../images/roll-game/background-game.jpg);
     background-repeat:repeat-y;
     width: 100px;
     height: 100px;
@@ -106,7 +106,7 @@
 }
 
 .item-game-2{
-    background-image: url(images/roll-game/background-game.jpg);
+    background-image: url(../images/roll-game/background-game.jpg);
     background-repeat:repeat-y;
     width: 100px;
     height: 100px;
@@ -117,7 +117,7 @@
     }
 
 .item-game-3{
-    background-image: url(images/roll-game/background-game.jpg);
+    background-image: url(../images/roll-game/background-game.jpg);
     background-repeat:repeat-y;
     width: 100px;
     height: 100px;
