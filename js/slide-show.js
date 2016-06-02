@@ -1,3 +1,4 @@
+'use strict'
 window.onload = initLinks;
 
 var myPix = new Array(
@@ -41,5 +42,5 @@ $( ".mini-photo" ).click(function() {
 	thisPic = index;
 	document.getElementById("myPicture").src = myPix[thisPic];
 	//clearInterval(intervalId);
-	$("src").unbind();
+
 });
