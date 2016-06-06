@@ -58,7 +58,7 @@ var yamaha =  {
     year: 2009
 };
 
-var motorBike = new Array(kawasaki, suzuki, honda, yamaha);
+var motorBike = [kawasaki, suzuki, honda, yamaha];
 var motorCars = [fiat, bmw, volvo, volkswagen, audi];
 var license = ['kat A', 'kat B', 'kat C', 'Kat d'];
 
@@ -66,13 +66,25 @@ var license = ['kat A', 'kat B', 'kat C', 'Kat d'];
 var carsAndMotors = motorBike.concat(motorCars);
 var motorsAndLicense =motorBike.concat(license);
 
-function fastCars(speed, index, array) {
-    if (speed > 200) {
+function fastCars(car, index, array) {
+    if (car.speed > 200) {
         return true;
     }
     else {
-        return;
-        false;
+        return false;
     }
 }
-var result = motorBike.filter(fastCars);
+var result = motorBike.filter(fastCars).map(function (car){
+    return car.color;
+
+});
+
+Array.prototype.map= function(f) {
+    var result=[];
+    for ( var i=0; i< this.length; i+=1) {
+        result.push(f(this[i]));
+    }
+        return result;
+    };
+
+
