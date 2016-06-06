@@ -88,8 +88,7 @@
 //     };
 
 
-//// cwiczenia
-
+//CWICZENIA
 var number1= 10;
 var number2=20;
 var firstName= 'Adam';
@@ -142,4 +141,74 @@ function showPrice2( firstPrice, secondPrice, thirdPrice) {
     var allPrice=[minPrice, maxprice, averagePrice];
     return allPrice;
 }
-// czemu nie moge uzyc zmiennej z powyzeszej funckji ??? bo jest w obrebie fukcji i jest zmienna lokalna ?
+var showNewFunction=showPrice2(5,10,15);
+// czemu nie moge uzyc zmiennej z powyzszej funkcji ??? bo jest w obrebie fukcji i jest zmienna lokalna ?
+
+//Deklaracja funkcji powouje jej utworzenie a pozniej mozemy ją wywołać. funkcje mozna wywoływać za pomocą jej nazwy np showPrice2()
+// interpreter najpierwsz wyszukuje zmienne i funkcje pozniej intrpretunej nastepne wiersze skryptu. 
+// dlatego funkcja utworzona za pomocą deklaracji funkcji moze byc wywołana przed miejscem jej deklaracji. 
+function suma(zmiennaA, zmiennaB) {
+    return zmiennaA * zmiennaB;
+};
+var zmiennaZpowyzszejfunkcji= suma(5,5);
+
+// Funkcja wyrażenia - zwana inaczej anonimową - funkcja przechowywana w zmiennej ( anonimowa dlatego ze zazwyczaj nie podajemy jej nazwy)
+// funkcja wyrażenia nie ma możliwości wywołania przed wykrciem. tzn zostaje uruchomina dopiero wtedy jak interpreter dotrze do danego wyrazenia w tym oprzypak do zminnej.
+
+var area= function (width, height){
+    return width * height;
+};
+var area2=area(5,10);
+
+// IIFE - funkcja wyrażenia wykonywana natychmiast - nie ma nazwy, jest wykonywana zaraz po jej wykryciu przez interpreter
+// ponizej zmienna przechowuje wartosc funkcji a nie funkcje ktora moze byc pozniej uruchomiona.
+//IIFE funkcja mzoe byc uzyta tylko jeden raz w danym skrypcie.
+var are3=(function (){
+    var width1=5;
+    var height2=10;
+    return width1*height2;
+}()); // ostatnia para nawiasow informuje interpreter o natychmiastowym wywolaniu funkcji,
+// zas nawiasy pierwszy i ostatni (operatory grupowania) gwarantuja potraktowanie calosci jako wyrażenie.
+
+// Zmienna lokalna zwana inaczej zmienna na poziomie funkcji. deklaruje sie ja za pomoca var i tworzy wewnatrz funkcji. przechowywana jest w pamieci w momencie wywolywania funkcji.
+// Zmienna globalna. jest przechowywana w pamiec az do momentu dzialania przegladarki. zmiennych tych uzywa sie sporadycznie.
+
+
+
+//// cwiczenia operatory porownania i logiczne
+
+
+var a=10;
+var b=20;
+var c=10;
+var d=40;
+
+var nameZ='10';
+var nameA= 'damian';
+var nameB = 'karol';
+var nameC= true;
+var nameD=false;
+var nameE;
+// OPERATORY PORÓWNANIA
+// == rowny z
+// === identyczny, typ i wartosc
+// != różny !== nieidentyczny z
+// > wiekszy niż
+// < mniejszy niż
+// >= wiekszy niż lub równy
+// <= mniejszy niż lub równy
+
+console.log(nameA==nameB);
+console.log(nameA===nameB);
+console.log(a==b);
+console.log(a==c);
+console.log(a===c);
+console.log(nameZ==a);
+console.log(nameZ===a);
+
+//OPERATORY LOGICZNE - boolowskie
+// && logiczne and - oba musza byc spelnione
+// || logiczne or  - conajmniej jeden musi być spełniony
+// ! logiczne not - pobiera pojedyncza wartosc boolowska i ja odwraca z true robi false
+console.log((2>1)&&(5>3));
+console.log((10>5)&&(5<10)||!(5<4));
