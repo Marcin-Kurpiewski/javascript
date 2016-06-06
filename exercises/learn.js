@@ -58,6 +58,7 @@ var yamaha =  {
     year: 2009
 };
 
+// var motorBike = new Array(kawasaki, suzuki, honda, yamaha);
 var motorBike = new Array(kawasaki, suzuki, honda, yamaha);
 var motorCars = [fiat, bmw, volvo, volkswagen, audi];
 var license = ['kat A', 'kat B', 'kat C', 'Kat d'];
