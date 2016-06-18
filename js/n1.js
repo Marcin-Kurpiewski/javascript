@@ -82,6 +82,35 @@ var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var regexp = /[a-e]/g;
 var matches_array = str.match(regexp);
 
-console.log(matches_array)
+console.log(matches_array);
 
 
+var table3= [10,20,30,40,50];
+
+console.log(table3.slice(0,3));
+
+/**/
+
+function pickIt(arr){
+    var odd=[],even=[];
+
+    for ( var i=0; i<arr.length; i++){
+        if ( arr[i] %2==0 ) even.push(arr[i]);
+        else odd.push(arr[i]);
+    }
+    return [odd,even];
+}
+
+
+var marks = [10,20,30];
+
+function getAverage(marks) {
+
+    var aver = [];
+    for (var i = 0; i <= marks.length; i++) {
+        aver.push[i];
+
+    }
+
+    return aver;
+}
