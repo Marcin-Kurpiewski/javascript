@@ -333,3 +333,5 @@ for(var i = 0; i < 10; i++) {
 // for (var i in a) {
 //     wynik += 'indeks: ' + i + ', wartość: ' + a[i] + '\n';
 // }
+
+
